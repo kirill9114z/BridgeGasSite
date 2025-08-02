@@ -71,11 +71,6 @@ export const teamContentSchema = z.object({
     role: z.string(),
     bio: z.string(),
   }),
-  technical: z.object({
-    name: z.string(),
-    role: z.string(),
-    bio: z.string(),
-  }),
   footerNote: z.string(),
 });
 

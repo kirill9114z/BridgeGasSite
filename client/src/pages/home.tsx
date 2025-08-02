@@ -439,21 +439,14 @@ export default function Home() {
               </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            <div className="flex justify-center max-w-4xl mx-auto">
               {[
                 {
                   name: teamContent?.content.kirill?.name || "Kirill Shurakhtov",
                   role: teamContent?.content.kirill?.role || "Founder & CEO",
                   bio: teamContent?.content.kirill?.bio || "Visionary leader with deep expertise in bridging traditional finance and blockchain technology.",
-                  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
+                  image: "/attached_assets/5219902681336902091_1754129295368.jpg",
                   borderColor: "border-electric/30"
-                },
-                {
-                  name: teamContent?.content.technical?.name || "Technical Founder",
-                  role: teamContent?.content.technical?.role || "Head of Marketing & Technology",
-                  bio: teamContent?.content.technical?.bio || "Technical architect and marketing strategist driving product development.",
-                  image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
-                  borderColor: "border-emerald-custom/30"
                 }
               ].map((member, index) => (
                 <motion.div

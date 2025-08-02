@@ -74,11 +74,6 @@ export class MemStorage implements IStorage {
             role: "Founder & CEO",
             bio: "Visionary leader with deep expertise in bridging traditional finance and blockchain technology for enterprise adoption."
           },
-          technical: {
-            name: "Technical Founder",
-            role: "Head of Marketing & Technology",
-            bio: "Technical architect and marketing strategist driving product development and market expansion initiatives."
-          },
           footerNote: "Our team is growing—your feedback and interest will help us build out the BridgeGas leadership."
         }
       }
