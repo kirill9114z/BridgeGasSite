@@ -20,6 +20,7 @@ import { Form, FormControl, FormField, FormItem, FormMessage } from "@/component
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest, queryClient } from "@/lib/queryClient";
 import { cn } from "@/lib/utils";
+import kirillPhoto from "@assets/5219902681336902091_1754130035865.jpg";
 
 const whitelistSchema = z.object({
   email: z.string().email("Please enter a valid email address").min(1, "Email is required"),
@@ -445,7 +446,7 @@ export default function Home() {
                   name: teamContent?.content.kirill?.name || "Kirill Shurakhtov",
                   role: teamContent?.content.kirill?.role || "Founder & CEO",
                   bio: teamContent?.content.kirill?.bio || "Visionary leader with deep expertise in bridging traditional finance and blockchain technology.",
-                  image: "/attached_assets/5219902681336902091_1754129295368.jpg",
+                  image: kirillPhoto,
                   borderColor: "border-electric/30"
                 }
               ].map((member, index) => (
