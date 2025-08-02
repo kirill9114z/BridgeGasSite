@@ -48,19 +48,19 @@ export class MemStorage implements IStorage {
           heading: "Our Solutions",
           subheading: "Comprehensive crypto payment infrastructure designed for enterprise adoption and scalability",
           payment: {
-            title: "Crypto Payment Gateway",
-            description: "Seamlessly integrate cryptocurrency payments into your existing infrastructure with our secure, enterprise-grade gateway solution.",
-            benefit: "Reduce transaction fees by up to 70% while expanding your customer base to the growing crypto economy."
+            title: "Improved user experience",
+            description: "Paying gas fees with different tokens on different networks can be a real headache — multiple wallets, asset conversions, and high on-chain fees slow down business processes. With BridgeGas, users get a truly unified payment flow: choose any supported ERC-20 token on any network, and our relay bridge system will automatically handle the conversion and settlement.",
+            benefit: "This eliminates the need for manual exchanges, reduces the number of transaction steps by 100%, and provides a seamless experience — no more 'wallet juggling' or unexpected fees."
           },
           bridging: {
-            title: "On-chain/Off-chain Bridging",
-            description: "Advanced bridging technology that connects traditional banking systems with blockchain networks for fluid value transfer.",
-            benefit: "Enable instant settlements and 24/7 operations while maintaining full compatibility with existing financial workflows."
+            title: "Plug-and-Play Integration",
+            description: "Traditional businesses need solutions that slot effortlessly into existing infrastructure. BridgeGas offers a lightweight, developer-friendly SDK and API that can be up and running in days, not months. We've made rapid, high-quality integration a core pillar of our roadmap—so you can embed cross-chain gas payments into your web or backend systems with just a few lines of code.",
+            benefit: "Minimize your engineering overhead, and start transacting immediately."
           },
           compliance: {
-            title: "Enterprise-Grade Compliance",
-            description: "Comprehensive regulatory compliance suite including AML/KYC, audit trails, and real-time monitoring for institutional standards.",
-            benefit: "Meet regulatory requirements while accessing crypto markets with confidence and complete transparency."
+            title: "System security and transparency",
+            description: "Security and compliance with legislation are mandatory conditions for the introduction of cryptocurrencies in enterprises. BridgeGas undergoes a multi-level verification process — smart contract audits by leading companies, continuous on-chain monitoring, and off-chain compliance checks — to ensure that every component meets institutional standards.",
+            benefit: "We provide full transparency of our protocols prior to launch so that you can verify, confirm, and trust every transaction from start to finish."
           }
         }
       },
