@@ -37,9 +37,9 @@ export class MemStorage implements IStorage {
         section: "about",
         content: {
           heading: "Who We Are",
-          description: "BridgeGas is a pioneering B2B crypto startup revolutionizing how traditional businesses interact with blockchain technology. We specialize in creating seamless bridges between conventional financial systems and the emerging cryptocurrency ecosystem.",
-          mission: "Our mission is to eliminate the complexity and risk barriers that prevent enterprises from adopting crypto payment solutions, enabling them to unlock new revenue streams and operational efficiencies.",
-          values: "Built on principles of trust, innovation, and enterprise-grade reliability, BridgeGas empowers businesses to navigate the future of finance with confidence and security."
+          description: "BridgeGas is an innovative B2B crypto project designed to simplify the user experience when paying for gas across different blockchains. Using a network of relays and a secure bridge protocol, we enable companies to integrate our system, which helps users pay transaction fees in any supported ERC-20 token from another chain. For example, using BNB on BSC to cover USDC→ETH exchanges on Ethereum. Focusing exclusively on corporate clients, we prioritize robust security, minimal fees, and seamless integration. BridgeGas is currently in the concept development stage and is laying the technical and legal groundwork to become the preferred solution for cross-chain gas payments for enterprises worldwide.",
+          mission: "",
+          values: ""
         }
       },
       {
