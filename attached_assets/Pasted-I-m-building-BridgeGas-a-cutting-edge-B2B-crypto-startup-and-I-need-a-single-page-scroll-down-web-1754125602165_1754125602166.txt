@@ -1,0 +1,86 @@
+I’m building BridgeGas, a cutting-edge B2B crypto startup, and I need a single-page, scroll-down website in English that captures interested companies’ contact info (for a whitelist), presents who we are, what we offer, and introduces our founding team. Below are the full requirements:
+
+1. General Style & Branding
+Color Palette: Luxurious, deep, trust-evoking tones (e.g. charcoal black, midnight blue, dark slate).
+
+Typography: Clean, professional sans-serif headings (e.g. Montserrat, Poppins) and a neutral body font (e.g. Roboto, Open Sans).
+
+Logo Placement: Top-center or top-left in the hero section (I will supply the SVG/PNG).
+
+Overall Look & Feel: High-end, minimalist, plenty of whitespace, subtle animations (fade/slide on scroll), consistent button styles.
+
+2. Page Structure & Content
+Hero Section
+
+Logo + Project Name: “BridgeGas” prominently displayed.
+
+Tagline: One short sentence that sums up our mission (e.g. “Bridging TradFi & Crypto Payment Solutions”).
+
+Background: A dark, subtle gradient or abstract blockchain-themed graphic.
+
+About Us
+
+Heading: “Who We Are”
+
+Text: 3–4 sentences in English describing BridgeGas’s vision, core values, and industry focus.
+
+What We Do & Offer
+
+Heading: “What We Do” or “Our Solutions”
+
+Content Blocks (icons + short text):
+
+Crypto Payment Gateway
+
+On-chain/off-chain Bridging
+
+Enterprise-Grade Compliance
+
+Each block: 2–3 sentences explaining the feature and its benefit to traditional businesses.
+
+Whitelist Sign-Up
+
+Heading: “Join the BridgeGas Whitelist”
+
+Subheading: “Enter your business email below to learn more about partnership opportunities.”
+
+Email Capture Form:
+
+Single field for business email + “Submit” button.
+
+Integration: Store submissions directly into a Google Sheet (or Airtable) via Zapier/Integromat—please configure and deliver the integration details.
+
+Success Message: “Thank you! We’ll be in touch soon.”
+
+Team Section
+
+Heading: “Our Team”
+
+Profiles (photo + name + roles):
+
+Kirill Shurakhtov
+
+Founder & CEO
+
+Technical Founder & Head of Marketing
+
+Footer Note: “Our team is growing—your feedback and interest will help us build out the BridgeGas leadership.”
+
+Footer
+
+Minimal links (e.g. Privacy Policy, Terms)
+
+Copyright: © 2025 BridgeGas
+
+3. Technical Requirements
+Responsive Design: Desktop, tablet, mobile.
+
+Hosting & Deployment: Recommend Netlify, Vercel, or similar S3 + CloudFront.
+
+Analytics: Google Analytics 4 setup (just basic pageview tracking).
+
+SSL: Must have valid HTTPS.
+
+Performant: PageSpeed score ≥ 90.
+
+SEO Basics: Meta title, description, Open Graph tags.
