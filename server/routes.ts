@@ -28,9 +28,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Get all whitelist emails (for admin purposes)
+  // Get all whitelist emails (for admin purposes) - requires password
   app.get("/api/whitelist", async (req, res) => {
     try {
+      const { password } = req.query;
+      
+      if (!password || password !== "172374") {
+        return res.status(401).json({ 
+          message: "Access denied. Password required to view whitelist emails." 
+        });
+      }
+      
       const emails = await storage.getWhitelistEmails();
       res.json(emails);
     } catch (error) {
